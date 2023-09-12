@@ -97,7 +97,10 @@ body {
     background-color: rgba(255, 255, 255, 0.8);
     margin: 20px auto; 
   }
-
+  .clock::after {
+    width: 5px; 
+  }
+}
   .clock .number {
     --rotation: 0;
     position: absolute;
