@@ -16,6 +16,18 @@ body {
   background-color:rgba(255,255, 255,.8) ;
 }
 
+.clock::after {
+  content: '';
+  position: absolute;
+  background-color: black;
+  z-index: 11;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
 .clock .number{
   --rotation: 0;
   position: absolute;
